@@ -7,13 +7,13 @@ router = APIRouter(
 
 
 @router.get("/national", summary="Faire une réservation national")
-def reservation_national():
+def national():
     return {"reservation":"information"}
 
 
 
 @router.get("/international", summary="Faire une réservation international")
-def reservation_international():
+def international():
     return {"réservation":"Information"}
 
 
