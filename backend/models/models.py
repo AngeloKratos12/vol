@@ -100,7 +100,7 @@ class vol_national(Base):
     payement = Column(ENUM(payement))
 
 
-class vol_national(Base):
+class vol_international(Base):
     __tablename__ = "vol_international"
 
     id = Column(Integer, primary_key=True, index=True)
